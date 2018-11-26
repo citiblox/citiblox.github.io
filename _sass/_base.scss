@@ -21,18 +21,18 @@ hr.light {
 a {
     @include transition-all;
     color: $theme-primary;
+    text-decoration: none;
     &:hover,
     &:focus {
         color: darken($theme-primary, 10%);
     }
 }
-
-h2 {
-  @include sans-serif-font;
-  font-size: 32px;
-  font-weight: bold;
+a:visited {
+    text-decoration: none;
 }
+
 h1,
+h2,
 h3,
 h4,
 h5,
