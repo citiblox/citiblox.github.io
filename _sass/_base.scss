@@ -27,7 +27,10 @@ a {
     }
 }
 
-h1,
+h1 {
+  @include sans-serif-font;
+  font-family: "fontawesome-webfont", "Helvetica", sans-serif;
+}
 h2,
 h3,
 h4,
