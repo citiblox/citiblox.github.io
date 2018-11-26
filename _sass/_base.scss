@@ -27,11 +27,12 @@ a {
     }
 }
 
-h1 {
+h2 {
   @include sans-serif-font;
   font-family: "fontawesome-webfont", "Helvetica", sans-serif;
+  font-size: 18px;
 }
-h2,
+h1,
 h3,
 h4,
 h5,
