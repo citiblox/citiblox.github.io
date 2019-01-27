@@ -318,6 +318,11 @@ header {
     padding: 10px 10px;
 }
 
+.hideme
+{
+    opacity:0;
+}
+
 // Contact
 #contact .fa {
     color: $theme-dark;
