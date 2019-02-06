@@ -65,6 +65,9 @@ p {
     background-color: $theme-dark;
     color: white;
 }
+.container-bg {
+    background-color: $theme-primary;
+}
 
 .text-faded {
     color: rgba(white, .7);
